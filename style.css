@@ -58,6 +58,8 @@ background: hsl(0, 33%, 93%);
 padding: 20px;
 border-radius: 5px;
 margin-top: 10px;
+display: flex;
+justify-content: space-between;
 }
 .memory{
     width:  200px;
@@ -65,6 +67,8 @@ margin-top: 10px;
     padding: 20px;
     border-radius: 5px;
     margin-top: 10px;
+    display: flex;
+justify-content: space-between;
 }
 .verbal{
     width:  200px;
@@ -72,6 +76,8 @@ margin-top: 10px;
     padding: 20px;
     border-radius: 5px;
     margin-top: 10px; 
+    display: flex;
+justify-content: space-between;
 }
 .visual{
     width:  200px;
@@ -79,6 +85,23 @@ margin-top: 10px;
     padding: 20px;
     border-radius: 5px;
     margin-top: 10px;
+    display: flex;
+justify-content: space-between;
+}
+#marks1,#marks2,#marks3{
+    color:darkblue;
+}
+#name1{
+    color: red;
+}
+#name2{
+    color: orange;
+}
+#name3{
+    color: green;
+}
+#name4{
+    color: blue;
 }
  button{
     background:hsl(224, 30%, 27%)  ;
