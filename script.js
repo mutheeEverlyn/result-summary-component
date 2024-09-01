@@ -35,7 +35,9 @@ fetch ("./data.json")
          name3.textContent=` ${ data[2].category}`
          marks3.textContent=` ${ data[2].score}/100`;
 
-    
+         icon4.textContent=` ${ data[3].icon}`;
+         name4.textContent=` ${ data[3].category}`
+         marks4.textContent=` ${ data[3].score}/100`;
     }
 )
 .catch((error)=>{
