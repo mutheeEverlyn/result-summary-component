@@ -27,6 +27,10 @@ fetch ("./data.json")
          name1.textContent=` ${ data[0].category}`
          marks1.textContent=` ${ data[0].score}/100`;
 
+         icon2.textContent=` ${ data[1].icon}`;
+         name2.textContent=` ${ data[1].category}`
+         marks2.textContent=` ${ data[1].score}/100`;
+
        
     }
 )
